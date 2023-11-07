@@ -1,0 +1,54 @@
+/*inicio del main desktop*/
+@media (min-width: 1000px) {
+    .img {
+      padding: 200px;
+    }
+    .cartel {
+      width: 100%;
+      margin-top: 150px;
+    }
+    .texto {
+      padding: 35px;
+      text-align: center;
+      font-size: 30px;
+      margin: 20px;
+    }
+    .section-2 {
+      padding: 200px;
+    }
+    .section-4 {
+      flex-direction: row;
+    }
+    .blindado{
+      width: 600px;
+      height: 400px;
+    }
+    .ul {
+      flex-direction: column;
+      margin: 2px;
+      margin-left: -2px;
+    }
+    main .cont-img div img {
+      width: 331px;
+      height: 331px;
+    }
+    main .cont-img {
+      display: grid;
+      grid-template-columns: repeat(3, 331px);
+      grid-template-rows: repeat(2, 331px);
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+      object-fit: cover;
+      background-color: black;
+      padding-bottom: 30px;
+    }
+    .caja {
+      flex-direction: row;
+    }
+    .section {
+      flex-direction: row;
+    }
+  }
+  /* fin main del desktop */

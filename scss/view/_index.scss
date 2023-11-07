@@ -1,0 +1,121 @@
+/*main mobile inicio*/
+main{
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/mercedes.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .cartel{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      text-align: center;
+      color: $color-secundario;
+        .texto {
+        background: rgba(250, 250, 250, 0.062745098);
+        backdrop-filter: blur(0.4rem);
+        -webkit-backdrop-filter: blur(0.4rem);
+        border: 3px solid rgba(250, 250, 250, 0.062745098);
+        padding: 5px;
+        border-radius: 1rem;        
+        }
+      }
+  .box-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+      .boton {
+      display: flex;
+      align-items: center;
+      color: $color-secundario;
+      padding: 10px;
+      margin-bottom: 50px;
+      background: $color-pincipal;
+      border: 2px solid $color-secundario;
+        &:hover {
+        background-color: $color-secundario;
+        color: black;
+        cursor: pointer;
+        }
+      }
+    }     
+  }
+
+  .section-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/escolta.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    .box-titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+      .titulo {
+      font-size: 25px;
+      text-decoration: underline;
+      color: $color-secundario;
+      text-decoration-color: $color-secundario;
+      }
+    }
+    .cajas {
+    margin: 10px;
+    padding: 5px;
+    background-color: $color-secundario;
+    background: rgba(250, 250, 250, 0.062745098);
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    border: 3px solid rgba(250, 250, 250, 0.062745098);
+    border-radius: 20px;
+      .traslados {
+      text-align: center;
+      justify-content: center;
+      text-decoration: underline;
+      text-decoration-color:$color-secundario;
+      font-size: 24px;
+      color: $color-secundario;
+      }
+      .p-traslado {
+      text-align: center;
+      color: $color-secundario;
+      }
+    }
+    .cajas-2 {
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 5px;
+    background-color: $color-secundario;
+    background: rgba(250, 250, 250, 0.062745098);
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+    border: 3px solid rgba(250, 250, 250, 0.062745098);
+    border-radius: 20px;
+      .eventos {
+      text-decoration: underline;
+      text-decoration-color: $color-secundario;
+      font-size: 24px;
+      color: $color-secundario;
+      }
+      .p-evento {
+      color: $color-secundario;
+      }
+    }
+  }
+  .cajas  {
+    b{
+    font-weight: bold;
+    color: $color-pincipal;
+    }   
+  }
+} 
+  /*fin del main mobile inicio*/

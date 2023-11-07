@@ -1,0 +1,36 @@
+/*inicio del main sobre nosotros*/
+main{
+  section{
+    .contenedor {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/oficina.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 510px;
+    width: 100%;
+      .años {
+      font-size: 30px;
+      color: $color-secundario;
+      }
+    }
+    .box {
+    display: flex;
+    text-align: center;
+    background: $fonde-nosotros;
+      .section-t {
+      font-size: 30px;
+      text-decoration: underline $color-secundario;
+      color: $color-secundario;
+      padding: 30px;        
+      }
+      .p {
+      color: $color-secundario;
+      }
+    }
+  }
+} 
+/*fin del main mobile sobre nosotros*/

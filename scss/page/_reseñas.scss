@@ -1,0 +1,25 @@
+/*inicio del main mobile reseña*/
+main{
+  .section {
+  @extend %caja-flex;
+  flex-direction: column;
+  background-color: map-get($colores ,terciario );
+    .caja {
+    @extend %caja-flex;
+    flex-direction: column;
+    border: $color-secundario solid 5px;
+    @include tamaño(50px,20px,400px,300px);
+    background: $color-pincipal;
+      .nombre {
+      padding-top: 50px;
+      flex-direction: column;
+      color: map-get($colores, secundario )
+      }
+      .reseñas {
+      margin-bottom: 40px;
+      color: $color-secundario;
+      }
+    }
+  }
+}  
+/*fin del main mobile reseña*/

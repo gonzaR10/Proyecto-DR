@@ -1,0 +1,7 @@
+//page reseña//
+@mixin tamaño($margin,$padding,$height,$width){
+    margin: $margin;
+    padding: $padding;
+    height: $height;
+    width: $width;
+}
