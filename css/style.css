@@ -29,23 +29,25 @@
   .section-4 {
     flex-direction: row;
   }
-  .blindado {
+  #blin2 {
     width: 600px;
     height: 400px;
+    border: 2px solid black;
   }
   .ul {
     flex-direction: column;
     margin: 2px;
     margin-left: -2px;
   }
-  main .cont-img div img {
-    width: 331px;
-    height: 331px;
+  main #gridid div img {
+    width: 200px;
+    height: 241px;
   }
-  main .cont-img {
+  main #gridid {
+    padding-top: 15px;
     display: grid;
-    grid-template-columns: repeat(3, 331px);
-    grid-template-rows: repeat(2, 331px);
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 210px);
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -251,8 +253,8 @@ main .section-4 {
   padding-bottom: 15px;
 }
 main .section-4 .blindado {
-  width: 600px;
-  height: 400px;
+  width: 340px;
+  height: 200px;
   border: 2px solid black;
 }
 main .section-4 .listas {
@@ -295,8 +297,8 @@ section .tit p {
 main .cont-img {
   padding-top: 15px;
   display: grid;
-  grid-template-columns: repeat(3, 200px);
-  grid-template-rows: repeat(2, 210px);
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2, 100px);
   justify-content: center;
   align-content: center;
   justify-items: center;
@@ -307,8 +309,8 @@ main .cont-img {
 }
 
 main .cont-img div img {
-  width: 200px;
-  height: 241px;
+  width: 100px;
+  height: 121px;
 }
 
 main .cont-img div {

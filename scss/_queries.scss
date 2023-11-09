@@ -19,7 +19,7 @@
     .section-4 {
       flex-direction: row;
     }
-    .blindado{
+    #blin2 {
       width: 600px;
       height: 400px;
     }
@@ -28,21 +28,14 @@
       margin: 2px;
       margin-left: -2px;
     }
-    main .cont-img div img {
-      width: 331px;
-      height: 331px;
+    main #gridid div img {
+      width: 200px;
+      height: 241px;
     }
-    main .cont-img {
+    main #gridid {
       display: grid;
-      grid-template-columns: repeat(3, 331px);
-      grid-template-rows: repeat(2, 331px);
-      justify-content: center;
-      align-content: center;
-      justify-items: center;
-      align-items: center;
-      object-fit: cover;
-      background-color: black;
-      padding-bottom: 30px;
+      grid-template-columns: repeat(3, 200px);
+      grid-template-rows: repeat(2, 210px);
     }
     .caja {
       flex-direction: row;
